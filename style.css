@@ -1,0 +1,79 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #5e3775e0;
+    color: #333;
+    
+}
+h1{
+    color: white;
+    text-shadow: #000000 1px 1px 6px;
+    align-items: center;
+    text-align: center;
+    /* font-size: 30px; */
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10px 25px; */
+    /* border: 2px solid #ccc; */
+    height: 400px;
+    /* width: 1000px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+li{
+    padding: 10px;
+}
+.fruits ol li{
+    /* background-color: ; */
+    background-image: linear-gradient(to right, rgb(152, 250, 114) , rgb(202, 238, 207), rgb(152, 250, 114));
+    height: 14px;
+    width: 160px;
+    margin-bottom: 30px;
+}
+.vegetables ul li{
+    /* background-color:; */
+    background-image: linear-gradient(to right,  rgb(135, 163, 255) , rgb(195, 227, 241), rgb(135, 163, 255));
+    height: 14px;
+    width: 160px;
+    margin-bottom: 30px;
+}
+.groceries ul li{
+    /* background-color: rgb(255, 159, 135); */
+    background-image: linear-gradient(to right,  rgb(255, 159, 135) , rgb(236, 214, 209), rgb(255, 159, 135));
+    height: 14px;
+    width: 160px;
+    margin-bottom: 30px;
+}
+
+.fruits, .vegetables, .groceries{
+    /* display: flex;
+    flex-direction: column; */
+    background-color: #f4f4f4;
+    height: 300px;
+    width: 200px;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: #333 2px 3px 4px 3px;
+}
+.first {
+    border: 2px solid black;
+    transform: rotate(-45deg);
+    width: 170px;
+    height: 170px;
+    border-radius: 20px;
+    background-color: aqua;
+    position: relative;
+}
+
+h3{
+    text-decoration: underline;
+}
